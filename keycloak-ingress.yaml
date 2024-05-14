@@ -9,6 +9,7 @@ spec:
   tls:
     - hosts:
         - keycloak.thejimnicholson.com
+      secretName: keycloak
   rules:
     - host: keycloak.thejimnicholson.com
       http:
